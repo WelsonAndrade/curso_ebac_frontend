@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario com JQuery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="Box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Cadastro</b></legend>
+                <br>
+                    <div class="inputBox">
+                        <input type="text" id="nome" name="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" id="email" name="email" class="inputUser" required>
+                        <label for="email" class="labelInput">E-mail</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="tel" id="telefone" name="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Telefone</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" id="cpf" name="cpf" class="inputUser" required>
+                        <label for="cpf" class="labelInput">CPF</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" id="Endereço" name="Endereço" class="inputUser" required>
+                        <label for="Endereço" class="labelInput">Endereço completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputBox">
+                        <input type="text" id="cep" name="cep" class="inputUser" required>
+                        <label for="cep" class="labelInput">CEP</label>
+                    </div>
+                    <br><br>
+                    <input type="submit" name="Enviar" id="Enviar">
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
