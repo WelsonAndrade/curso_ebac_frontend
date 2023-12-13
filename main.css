@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background: linear-gradient(70deg,#8e2de2,#4a00e0, #350d5d);
+}
+
+.container {
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
